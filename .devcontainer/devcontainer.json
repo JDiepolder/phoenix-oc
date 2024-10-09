@@ -1,0 +1,24 @@
+{
+    "name": "phoenix",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "hostRequirements": {
+        "memory": "16gb"
+    }, 
+    "postAttachCommand": "bash -lc 'source phoenix_startup.sh'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "tomoki1207.pdf",
+                "james-yu.latex-workshop",
+                "yzhang.markdown-all-in-one"
+            ]
+        }
+    }
+}
