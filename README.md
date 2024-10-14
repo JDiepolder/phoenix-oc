@@ -2,7 +2,7 @@
 
 This repository contains instructions to set up the environment for Phoenix-OC.
 
-<img src="https://github.com/JDiepolder/test/blob/main/media/phoenix_ui.png?raw=true" alt="drawing" width="900"/>
+![phoenix_ui](https://github.com/user-attachments/assets/3f5d7988-6c83-44de-b369-c8626083db3a)
 
 > [!NOTE]  
 > Phoenix-OC can run in your local environment, in the cloud, or on a compute cluster.
@@ -30,7 +30,7 @@ Among many others, Phoenix-OC includes the following features:
 
 The easiest way to get started is to use a Codespace. Simply click on the `Code` button on the right upper part of the main page of this repository. 
 
-<img src="https://github.com/JDiepolder/test/blob/main/media/code_button_steps.png?raw=true" alt="drawing" width="400"/>
+![code_button_steps](https://github.com/user-attachments/assets/2fa9d9f6-d4a7-4d2f-ad5f-dd8d8476957d)
 
 The first time a Codespace is created, the initial setup requires some minutes to complete. Thereafter, the Codespace will start within seconds. If you have trouble creating the Codespace, you can follow the instructions [here](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository).
 
@@ -44,13 +44,13 @@ Once the environment is set up, you should see the Phoenix extension (flame icon
 
 After the environment is set up you need to add the Phoenix-OC app. 
 
-<img src="https://github.com/JDiepolder/test/blob/main/media/get_started.gif?raw=true" alt="drawing" width="960"/>
+![get_started](https://github.com/user-attachments/assets/a0896e6b-a940-4916-a4e8-317904d424c1)
 
 **First Example**:
 
 To get started you can explore the examples provided with Phoenix-OC. 
 
-<img src="https://github.com/JDiepolder/test/blob/main/media/add_and_run_example.gif?raw=true" alt="drawing" width="960"/>
+![add_and_run_example](https://github.com/user-attachments/assets/d2ce041d-fdb5-4c60-8496-d01e2197a66a)
 
 ## Documentation
 
