@@ -34,7 +34,11 @@ The easiest way to get started is to use a Codespace. Simply click on the `Code`
 
 The first time a Codespace is created, the initial setup requires some minutes to complete. Thereafter, the Codespace will start within seconds. If you have trouble creating the Codespace, you can follow the instructions [here](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository).
 
-The startup check will report missing components in the environment after the initial setup.
+The startup check will report missing components in the environment after the initial setup. Run the install script:
+
+```
+source phoenix_install.sh 2>&1 | tee phoenix_install.log; source phoenix_startup.sh
+```
 
 You need to run the Phoenix install script to fully configure the environment. (If you wish to update the installed components later, you can simply re-run this script.)
 
