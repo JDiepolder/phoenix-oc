@@ -252,7 +252,7 @@ elif [[ ${IPOPT_DPKG} -ne 1 ]]; then
     if [ "${HSL_TAR_GZ_ARCHIVE}" = "none" ]; then
         echo "No HSL archive specified." 
     else
-        HSL_COUNT=$(find ../.. -maxdepth 1 -name "${HSL_TAR_GZ_ARCHIVE}" | wc -l)
+        HSL_COUNT=$(find .. -maxdepth 1 -name "${HSL_TAR_GZ_ARCHIVE}" | wc -l)
 
         if [[ ${HSL_COUNT} -gt 1 ]]; then
             echo "ERROR: found more than one HSL archive matching ${HSL_TAR_GZ_ARCHIVE}. Aborting."
@@ -300,8 +300,7 @@ elif [[ ${IPOPT_DPKG} -ne 1 ]]; then
 
         git clone https://github.com/coin-or-tools/ThirdParty-HSL
         
-        ls ../../
-        cp ../../$HSL_TAR_GZ_ARCHIVE ThirdParty-HSL
+        cp ../$HSL_TAR_GZ_ARCHIVE ThirdParty-HSL
         
         pushd ThirdParty-HSL
 
