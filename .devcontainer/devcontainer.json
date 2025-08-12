@@ -4,7 +4,7 @@
         "dockerfile": "Dockerfile"
     },
     "hostRequirements": {
-        "memory": "16gb"
+        "memory": "32gb"
     }, 
     "postAttachCommand": "bash -lc 'source phoenix_startup.sh'",
     "customizations": {
