@@ -5,6 +5,7 @@ FROM mcr.microsoft.com/devcontainers/universal:2-linux
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install Debian packages as root
+RUN rm -f /etc/apt/sources.list.d/yarn.list
 RUN apt-get update && apt-get install -y \
     liblapack-dev \
     openmpi-bin \
