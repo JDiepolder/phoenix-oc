@@ -3,6 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
+    "runArgs": ["--platform=linux/amd64"],
     "hostRequirements": {
         "memory": "32gb"
     }, 
